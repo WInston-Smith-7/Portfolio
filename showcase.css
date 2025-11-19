@@ -1,0 +1,25 @@
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+div.gallery {
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    box-sizing: content-box;
+}
+
+.box {
+    flex: 1;
+    padding: 1rem;
+}
+
+div img.gallery {
+    min-width: 300px;
+    box-sizing: content-box;
+    box-shadow: .1rem .1rem .25rem black;
+}

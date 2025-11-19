@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'very-very-punk-font-webfont' ;
+    src: url('Fonts/very_very_punk_font-webfont.woff2') format('woff2');
+    src: url('Fonts/very_very_punk_font-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+#very-very-punk {
+    font-family: 'very-very-punk-font-webfont';
+}
+
+@font-face {
+    font-family: 'alegreya-variablefont-wght-webfont';
+    src: url('Fonts/alegreya-variablefont_wght-webfont.woff2');
+    src: url('Fonts/alegreya-variablefont_wght-webfont.woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+#alegreya {
+    font-family: 'alegreya-variablefont-wght-webfont';
+}
+
+.displaySizeFont {
+    font-size: 10rem;
+}
+
+table {
+    padding: auto;
+    border-collapse: collapse;
+}
+
+th {
+    background: gainsboro;
+}
+
+tbody {
+    background: rgb(239, 239, 239);
+}
+
+tr {
+    margin: auto;
+    text-align: center;
+}
+
+
+img {
+    width: 100%;
+    box-shadow: .1rem .1rem .25rem black;
+}
+
+.pal1 li.color1{
+    color: #00186D ;
+}
+
+.pal1 li.color2 {
+    color: #022C8A;
+}
+
+.pal1 li.color3 {
+    color: #053DC9;
+}
+
+.pal1 li.color4 {
+    color: #FFFCBD;
+}
+
+.pal1 li.color5 {
+    color: #F9EF00;
+}
+
+.pal2 li.color1{
+    color: #FF8F8F;
+}
+
+.pal2 li.color2 {
+    color: #FFB8FA;
+}
+
+.pal2 li.color3 {
+    color: #F0428D;
+}
+
+.pal2 li.color4 {
+    color: #1D97FF;
+}
+
+.pal2 li.color5 {
+    color: #6AEECE;
+}
+
+.pal3 li.color1{
+    color: #3C4146;
+}
+
+.pal3 li.color2 {
+    color: #586273;
+}
+
+.pal3 li.color3 {
+    color: #767D8D;
+}
+
+.pal3 li.color4 {
+    color: #FFB624;
+}
+
+.pal3 li.color5 {
+    color: #FFF277;
+}
+
+.pal4 li.color1{
+    color: #555BD9;
+}
+
+.pal4 li.color2 {
+    color: #4B39BE;
+}
+
+.pal4 li.color3 {
+    color: #E68BFF;
+}
+
+.pal4 li.color4 {
+    color: #F0E765;
+}
+
+.pal4 li.color5 {
+    color: #F2892D;
+}
+
+.pal5 li.color1{
+    color: #223854;
+}
+
+.pal5 li.color2 {
+    color: #717A8A;
+}
+
+.pal5 li.color3 {
+    color: #CDCFCC;
+}
+
+.pal5 li.color4 {
+    color: #FFB661;
+}
+
+.pal5 li.color5 {
+    color: #B53218;
+}
