@@ -3,8 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="sitewide.css" rel="stylesheet">
+  <link id="lightmode" href="sitewide.css" rel="stylesheet">
+  <link id="darkmode" disabled href="sitewide_darkmode.css" rel="stylesheet">
   <link href="resume.css" rel="stylesheet">
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/13fbe82898.js"
+  crossorigin="anonymous"></script>
   <title>Winston Smith Graphic Design</title>
 </head>
 <body>
@@ -54,18 +58,31 @@
           </li>
         </ul>
         </li>
+        <li class="contains"> mode
+          <ul>
+            <li id="selectDark">Dark Mode</li>
+            <li id="selectLight">Light Mode</li>
+          </ul>
+        </li>
+        <li class="contains"> font size
+          <ul>
+            <li id="smallOption">small</li>
+            <li id="mediumOption">medium</li>
+            <li id="largeOption">large</li>
+          </ul>
+        </li>
     </ul>
   </nav>
 <h1>Resume</h1>
-<div class="resume">
-  <div class="resumeSection"><h2>Summary</h2></div>
+<div id="resume">
+  <div class="resumeSection"><h2>Summary</h2><i class="fas fa-chevron-down chevron"></i></div>
   <div class="resumeContent">
     <p>I’m a highly motivated and hardworking young professional. I'm
     experienced with professional graphic design software such as Affinity
     Photo, Designer, & Publisher and am currently enrolled in a web desing
     course that is also teaching me the adobe suite and coding.</p>
   </div>
-  <div class="resumeSection"><h2>Experience and skills</h2></div>
+  <div class="resumeSection"><h2>Experience and skills</h2><i class="fas fa-chevron-down chevron"></i></div>
   <ul class="resumeContent">
       <li class="">Working as a team lead for a web design internship where I made a brand style guide and coordinated with the client.</li>
       <li class="">Fluent in Microsoft Office Products</li>
@@ -73,7 +90,7 @@
       <li class="">Freelance for 501(c)3 nonprofit organization Nova Prism Center</li>
       <li class="">Heavily involved in the TTRPG creator scene. I have been learning how to display information that is accessible at a glance but in a stylized way.</li>
   </ul>
-  <div class="resumeSection"><h2>Education</h2></div>
+  <div class="resumeSection"><h2>Education</h2><i class="fas fa-chevron-down chevron"></i></div>
   <div class="resumeContent">
     <p><strong>High School Diploma</strong>
     Graduated from Fairfax
@@ -81,7 +98,7 @@
     Instruction Program in June
     2021.</p>
   </div>
-  <div class="resumeSection"><h2>My Info</h2></div>
+  <div class="resumeSection"><h2>My Info</h2><i class="fas fa-chevron-down chevron"></i></div>
   <div class="resumeContent">
     <p><strong>Address:</strong> 9555 Blake Lane, APT 202, Fairfax, VA, 22031
     <strong>Phone:</strong> 571-356-5350

@@ -4,7 +4,8 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: white;
+    color: white;
+    background-color: rgb(18, 18, 18);
 }
 
 h1 {
@@ -24,13 +25,13 @@ h3 {
 
 section {
     padding: 1rem 2rem;
-    background: whitesmoke;
+    background:dimgray;
 }
 
 nav {
-  background: gainsboro;
+  background: rgb(33, 33, 33);
   margin: 0 -0.5rem;
-  text-shadow: .1rem .1rem .1rem black;
+  text-shadow: .1rem .1rem .1rem white;
   text-transform: uppercase;
 }
 
@@ -60,7 +61,7 @@ nav li {
 }
 
 nav li:hover {
-  background: rgb(240, 240, 240);
+  background: rgb(15, 15, 15);
 }
 
 nav a:active {
@@ -72,7 +73,7 @@ li.contains ul {
 }
 
 li.contains:hover ul {
-  background: white;
+  background: black;
   display: block;
   position: absolute;
 }

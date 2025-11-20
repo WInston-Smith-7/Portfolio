@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="../sitewide.css" rel="stylesheet">
+  <link id="lightmode" href="../sitewide.css" rel="stylesheet">
+  <link id="darkmode" disabled href="../sitewide_darkmode.css" rel="stylesheet">
+  <script src="../script.js"></script>
   <link href="../showcase.css" rel="stylesheet">
   <title>Magazine Cover</title>
 </head>
@@ -53,6 +55,19 @@
             <a class="" href="../SubTypography/TypographyArticle.html">Typography Article</a>
           </li>
         </ul>
+        </li>
+        <li class="contains"> mode
+          <ul>
+            <li id="selectDark">Dark Mode</li>
+            <li id="selectLight">Light Mode</li>
+          </ul>
+        </li>
+        <li class="contains"> font size
+          <ul>
+            <li id="smallOption">small</li>
+            <li id="mediumOption">medium</li>
+            <li id="largeOption">large</li>
+          </ul>
         </li>
     </ul>
   </nav>
