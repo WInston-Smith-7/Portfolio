@@ -3,72 +3,72 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link id="lightmode" href="sitewide.css" rel="stylesheet">
-  <link id="darkmode" disabled href="sitewide_darkmode.css" rel="stylesheet">
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <script src="script.js"></script>
   <title>Winston Smith Graphic Design</title>
 </head>
 <body>
   <!-- this is what will turn into the navigation bar -->
    <h3>navigation</h3>
-  <nav>
-    <ul class="">
-        <li class="">
-          <a class="" href="index.html">Homepage</a>
+  <nav class="navbar navbar-expand-lg">
+    <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Homepage</a>
         </li>
         <li class="contains"> My portfolio
           <ul class="">
           <li class="">
-            <a class="" href="showcase/photoRestoration.html">Photo Restoration</a>
+            <a class="nav-link" href="showcase/photoRestoration.html">Photo Restoration</a>
           </li>
           <li class="">
-            <a class="" href="showcase/adCampaign.html">Ad Campaign</a>
+            <a class="nav-link" href="showcase/adCampaign.html">Ad Campaign</a>
           </li>
           <li class="">
-            <a class="" href="showcase/magazine.html">Magazine Cover</a>
+            <a class="nav-link" href="showcase/magazine.html">Magazine Cover</a>
           </li>
           <li class="">
-            <a class="" href="showcase/animations.html">Animations</a>
+            <a class="nav-link" href="showcase/animations.html">Animations</a>
           </li>
           </ul>
         </li>
-        <li class="">
-          <a class="" href="resume.html">resume</a>
+        <li class="nav-item">
+          <a class="nav-link" href="resume.html">resume</a>
         </li>
         <li class="contains"> <a class="" href="ColorTheoryOverview.html">Color Theory</a>
           <ul>
-          <li>
-            <a class="" href="SubColor/ColorThemes.html">Color Themes</a>
+          <li class="nav-item">
+            <a class="nav-link" href="SubColor/ColorThemes.html">Color Themes</a>
           </li>
-          <li>
-            <a class="" href="SubColor/ColorTheoryArticle.html">Color Theory Article</a>
+          <li class="nav-item">
+            <a class="nav-link" href="SubColor/ColorTheoryArticle.html">Color Theory Article</a>
           </li>
           </ul>
         </li>
         <li class="contains"> <a class="" href="TypographyOverview.html">Typography Overview</a>
         <ul>
-          <li class="">
-            <a class="" href="SubTypography/FontTypes.html">Font Types</a>
+          <li class="nav-item">
+            <a class="nav-link" href="SubTypography/FontTypes.html">Font Types</a>
           </li>
-          <li class="">
-            <a class="" href="SubTypography/TypographyArticle.html">Typography Article</a>
+          <li class="nav-item">
+            <a class="nav-link" href="SubTypography/TypographyArticle.html">Typography Article</a>
           </li>
         </ul>
         </li>
-        <li class="contains"> mode
+        <li class="dropdown-menu"> mode
           <ul>
-            <li id="selectDark">Dark Mode</li>
-            <li id="selectLight">Light Mode</li>
+            <li id="selectDark" class="dropdown-item">Dark Mode</li>
+            <li id="selectLight" class="dropdown-item">Light Mode</li>
           </ul>
         </li>
-        <li class="contains"> font size
+        <li class="dropdown-menu"> font size
           <ul>
-            <li id="smallOption">small</li>
-            <li id="mediumOption">medium</li>
-            <li id="largeOption">large</li>
+            <li class="dropdown-item" id="smallOption">small</li>
+            <li class="dropdown-item" id="mediumOption">medium</li>
+            <li class="dropdown-item" id="largeOption">large</li>
           </ul>
         </li>
     </ul>
+    <script src="bootstrap/js.bootstrap.bundle.min.js"></script>
   </nav>
   <h1>About me</h1>
   <p>Hi i'm Winston Smith a aspiring graphic designer and web designer. I have passion for gathering refrences and 
